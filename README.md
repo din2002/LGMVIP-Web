@@ -1,2 +1,2 @@
 # LGMVIP-Web
-letsGrowMore Internship Program
+LetsGrowMore Internship Program
