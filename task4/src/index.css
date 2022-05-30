@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', 'sans-serif';
+}
+
+.App{
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator{
+  width: 100%;
+  max-width: 500px;
+  background-color: rgb(24, 15, 31);
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0px 2px 64px black;
+}
+
+.display_screen{
+  display: flex;
+  padding: 15px;
+}
+
+.display_screen p{
+  padding: 10px;
+  text-align: right;
+  background-color: rgb(255, 255, 255);
+  color: #000000;
+  font-size: 35px;
+  font-weight: 300;
+  flex: 1 1 80%;
+  margin-right: 3px;
+  margin-left: 3px;
+  border-radius: 7px;
+}
+.display_screen p span{
+  font-size: 20px;
+  font-weight: 100;
+}
+
+.display_screen button{
+  font-size: 24px;
+  font-weight: 250;
+  background-color: rgb(239, 3, 97);
+  border-radius: 7px;
+}
+
+button{
+  appearance: none;
+  border: none;
+  outline: none;
+  color: white;
+  font-size: 24px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+button:hover{
+  opacity: 0.7;
+}
+
+button:active{
+  opacity: 0.4;
+}
+
+.keys{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 15px;
+  padding-top: 0px;
+}
+
+.keys button{
+  flex: 1 1 23.3%;
+  max-width: 23.3%;
+  background-color: rgb(114, 36, 151);
+  color: white;
+  margin: 4px;
+  border-radius: 5px;
+}
+
+.cal{
+  background-color: rgb(239, 3, 97)!important;
+}
+
